@@ -1,18 +1,18 @@
 import React, { Component } from 'react'
 import SectionTitle from '../../components/SectionTitle'
 
+
 import vec1 from '../../images/contact/1.png'
 import vec2 from '../../images/contact/2.png'
 
-class RSVP extends Component {
+import emailjs from "emailjs-com";
 
+class RSVP extends Component {
 
     state = {
         name: '',
+        first: '',
         email: '',
-        address: '',
-        meal: '',
-        service: '',
         guest: '',
         error: {}
     }
@@ -32,56 +32,53 @@ class RSVP extends Component {
         e.preventDefault();
 
         const { name,
+            first,
             email,
-            address,
-            service,
-            meal,
             guest, error } = this.state;
 
         if (name === '') {
-            error.name = "Please enter your name";
+            error.name = "Veuillez entrer votre nom";
+        }
+        if (first === '') {
+            error.email = "Veuillez entrer votre prénom";
         }
         if (email === '') {
-            error.email = "Please enter your email";
-        }
-        if (address === '') {
-            error.address = "Please enter your address";
-        }
-        if (service === '') {
-            error.service = "Please Select your service";
+            error.email = "Veuillez entrer votre email";
         }
         if (guest === '') {
-            error.guest = "Please Select your Guest List";
+            error.guest = "Veuillez sélectionner le nombre de personnes présentes";
         }
-        if (meal === '') {
-            error.meal = "Select Select Your Meal";
-        }
-
 
         if (error) {
             this.setState({
                 error
             })
         }
-        if (error.name === '' && error.email === '' && error.email === '' && error.service === '' && error.address === '' && error.meal === '' && error.guest === '') {
+        if (error.name === '' && error.first === '' && error.email === '' && error.guest === '') {
             this.setState({
                 name: '',
+                first: '',
                 email: '',
-                address: '',
-                meal: '',
                 guest: '',
                 error: {}
             })
+        }
+        if (name != '' && first != '' && email != '' && guest != '') {
+            emailjs.sendForm('service_3v5yfyc', 'template_evji6kp', e.target, '2m1mZVuUouFpFifj_')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text)
+            });
+            e.target.reset()
         }
     }
 
     render(){
         const { name,
+            first,
             email,
-            address,
-            service,
             guest,
-            meal,
             error } = this.state;
 
         return(
@@ -100,20 +97,14 @@ class RSVP extends Component {
                                     </div>
                                     <div>
                                         <div className="form-field">
-                                            <input onChange={this.changeHandler} value={email} type="email" className="form-control" name="email" placeholder="Prénom"/>
-                                            <p>{error.email ? error.email : ''}</p>
+                                            <input value={first} onChange={this.changeHandler} className="form-control" type="text" name="first" placeholder="Prénom"/>
+                                            <p>{error.name ? error.name : ''}</p>
                                         </div>
                                     </div>
                                     <div>
                                         <div className="form-field">
                                             <input onChange={this.changeHandler} value={email} type="email" className="form-control" name="email" placeholder="Email"/>
                                             <p>{error.email ? error.email : ''}</p>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div className="form-field">
-                                            <input onChange={this.changeHandler} value={address} type="text" className="form-control" name="address" placeholder="Adresse"/>
-                                            <p>{error.address ? error.address : ''}</p>
                                         </div>
                                     </div>
                                     <div>
@@ -127,21 +118,11 @@ class RSVP extends Component {
                                         </select>
                                         <p>{error.guest ? error.guest : ''}</p>
                                     </div>
-                                    <div>
-                                        <select name="meal" className="form-control last" value={meal} onChange={this.changeHandler}>
-                                            <option>Préférences pour les repas</option>
-                                            <option>Chicken Soup</option>
-                                            <option>Motton Kabab</option>
-                                            <option>Chicken BBQ</option>
-                                            <option>Mix Salad</option>
-                                            <option>Beef Ribs </option>
-                                        </select>
-                                        <p>{error.meal ? error.meal : ''}</p>
-                                    </div>
                                     <div className="submit-area">
                                         <div className="form-submit">
-                                            <button type="submit" className="theme-btn-s3">Réserver et payer</button>
+                                            <button type="submit" className="theme-btn-s3">Réserver</button>
                                         </div>
+                                        <p>{error.success ? error.success : ''}</p>
                                     </div>
                                 </div>
                             </form>

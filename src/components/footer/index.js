@@ -65,8 +65,8 @@ const Footer = (props) =>{
                                 <ul>
                                     <li><i className="fi flaticon-email"></i>chemla.julie5@gmail.com</li>
                                     <li><i className="fi flaticon-phone-call"></i>+33 6 22 32 47 90</li>
-                                    <li><i className="fi flaticon-maps-and-flags"></i>Domaine de la Butte Ronde
-                                    </li>
+                                    <li><i className="fi flaticon-email"></i>avner.sayagh@gmail.com</li>
+                                    <li><i className="fi flaticon-phone-call"></i>+33 6 21 53 98 13</li>
                                 </ul>
                             </div>
                         </div>

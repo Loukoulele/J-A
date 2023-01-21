@@ -28,7 +28,7 @@ class CoupleSection extends Component {
                                     </div>
                                 </div>
                                 <div className="text-grid groom">
-                                    <h3>Avner Avner</h3>
+                                    <h3>Avner Sayagh</h3>
                                     <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
                                     {/* <div className="social">
                                         <ul>

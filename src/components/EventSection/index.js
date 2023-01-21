@@ -7,12 +7,12 @@ import LocationMap from '../Modal'
 
 
 const Events = [
-    // {
-    //     Simg: sImg1,
-    //     title:'The Reception',
-    //     li1:'Monday, 25 Sep, 2022 1:00 PM – 4:30 PM',
-    //     li2:'Estern Star Plaza, Road 123, USA',
-    // },
+    {
+        Simg: sImg1,
+        title:'The Reception',
+        li1:'Monday, 25 Sep, 2022 1:00 PM – 4:30 PM',
+        li2:'Estern Star Plaza, Road 123, USA',
+    },
     {
         Simg: sImg2,
         title:'Soirée de mariage',
@@ -20,12 +20,12 @@ const Events = [
         li2:'10:00 – 00:00',
         li3:'Domaine de la Butte Ronde, La Butte Ronde, La Boissière-École, France',
     },
-    // {
-    //     Simg: sImg3,
-    //     title:'Wedding Party',
-    //     li1:'Monday, 25 Sep, 2022 1:00 PM – 4:30 PM',
-    //     li2:'Estern Star Plaza, Road 123, USA',
-    // },
+    {
+        Simg: sImg3,
+        title:'Wedding Party',
+        li1:'Monday, 25 Sep, 2022 1:00 PM – 4:30 PM',
+        li2:'Estern Star Plaza, Road 123, USA',
+    },
 
 ]
 
@@ -37,7 +37,7 @@ const EventSection = (props) => {
                 <div className="wpo-event-wrap">
                     <div className="row">
                         {Events.map((event, eitem) => (
-                            <div className="col col-lg-12 col-md-6 col-12" key={eitem}>
+                            <div className="col col-lg-4 col-md-6 col-12" key={eitem}>
                                 <div className="wpo-event-item">
                                     <div className="wpo-event-img">
                                         <img src={event.Simg} alt=""/>
