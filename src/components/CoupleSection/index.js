@@ -11,7 +11,7 @@ class CoupleSection extends Component {
                     <div className="row align-items-center">
                         <div className="col col-xs-12">
                             <div className="couple-area clearfix">
-                                <div className="text-grid bride">
+                                <div className="text-grid groom">
                                     <h3><b>J</b>ulie <b>C</b>hemla</h3>
                                     <p>Juste la femme idéale pour Avner<br/>
                                         Un brin fofolle<br/>
