@@ -32,15 +32,15 @@ const Portfolios = [
     {
         Pimg:pImg6,
     },
-    {
-        Pimg:pImg7,
-    },
-    {
-        Pimg:pImg8,
-    },
-    {
-        Pimg:pImg9,
-    },
+    // {
+    //     Pimg:pImg7,
+    // },
+    // {
+    //     Pimg:pImg8,
+    // },
+    // {
+    //     Pimg:pImg9,
+    // },
 ] 
 
 const PortfolioSection2 = (props) => {

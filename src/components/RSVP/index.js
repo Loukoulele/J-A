@@ -7,6 +7,7 @@ import vec2 from '../../images/contact/2.png'
 
 import emailjs from "emailjs-com";
 
+
 class RSVP extends Component {
 
     state = {
@@ -86,6 +87,7 @@ class RSVP extends Component {
                 <div className="container">
                     <div className="wpo-contact-section-wrapper">
                         <div className="wpo-contact-form-area">
+                        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
                             <SectionTitle MainTitle={'Serez-vous présent ?'}/>
                             <form onSubmit={this.subimtHandler} className="form">
                                 <div className="row">
@@ -109,18 +111,25 @@ class RSVP extends Component {
                                     </div>
                                     <div>
                                         <select name="guest" className="form-control" value={guest} onChange={this.changeHandler}>
-                                            <option>Nombre d'invités</option>
+                                            <option>Nombre d'invité(s)</option>
                                             <option>01</option>
                                             <option>02</option>
                                             <option>03</option>
                                             <option>04</option>
                                             <option>05</option>
+                                            <option>06</option>
+                                            <option>07</option>
+                                            <option>08</option>
+                                            <option>09</option>
+                                            <option>10+</option>
                                         </select>
                                         <p>{error.guest ? error.guest : ''}</p>
                                     </div>
                                     <div className="submit-area">
                                         <div className="form-submit">
-                                            <button type="submit" className="theme-btn-s3">Réserver</button>
+                                            <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                                            <br/>
+                                            <button type="submit" className="theme-btn-s3">Envoyer</button>
                                         </div>
                                         <p>{error.success ? error.success : ''}</p>
                                     </div>

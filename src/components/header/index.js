@@ -62,8 +62,8 @@ class Header extends Component {
                     <button className="menu-close"><i className="ti-close"></i></button>
                     <ul className="nav navbar-nav mb-2 mb-lg-0">
                       <li className="menu-item-has-children"><Link activeClass="active" to="home" spy={true} smooth={true} duration={500} >Accueil</Link></li>
-                      <li><Link activeClass="active" to="couple" spy={true} smooth={true} offset={-100} duration={500} >Couple</Link></li>
-                      <li><Link activeClass="active" to="gallery" spy={true} smooth={true} duration={500} >Gallerie</Link></li>
+                      <li><Link activeClass="active" to="couple" spy={true} smooth={true} offset={-100} duration={500} >J & A</Link></li>
+                      <li><Link activeClass="active" to="gallery" spy={true} smooth={true} duration={500} >Galerie</Link></li>
                       <li><Link activeClass="active" to="story" spy={true} smooth={true} duration={500} >L'événement</Link></li>
                       <li><Link activeClass="active" to="events" spy={true} smooth={true} offset={-80} duration={500} >Lieux et dates</Link></li>
                       <li><Link activeClass="active" to="RSVP" spy={true} smooth={true} duration={500} >Contact</Link></li>

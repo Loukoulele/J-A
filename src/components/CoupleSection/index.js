@@ -16,7 +16,7 @@ class CoupleSection extends Component {
                                     <p>Juste la femme idéale pour Avner<br/>
                                         Un brin fofolle<br/>
                                         Limite relou<br/>
-                                        Indubitablement fan de sa belle mère<br/>
+                                        Indubitablement fan de sa belle-mère<br/>
                                         Extrêmement bonne cuisinière (sponsorisée par UberEat)
                                     </p>
                                     {/* <div className="social">

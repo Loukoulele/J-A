@@ -44,7 +44,9 @@ const StorySection = (props) => {
             Shape:Shape,
             sTitle:"La Houppa",
             date:'8 juin 2023',
-            description:'La Houppa (le dais nuptial) correspond à la cérémonie religieuse du mariage. Le nouveau couple est béni sous un tissu tenu de 4 piliers, généralement joliment décoré et ouvert des 4 côtés, pour s’apparenter à la tente d’Avraham Avinou. Il s’agit du symbole du foyer que le couple doit construire et partager. Il accueille les mariés ainsi que le rabbin pour la signature de la Ketouba (contrat de mariage). C’est également à cet instant que vous aurez l’occasion de voir Avner cassé le fameux verre.'
+            description:'La Houppa (le dais nuptial) correspond à la cérémonie religieuse du mariage. Le nouveau couple est béni sous un tissu tenu de 4 piliers, généralement joliment décoré et ouvert des 4 côtés, pour s’apparenter à la tente d’Avraham Avinou.',
+            description2:'Il s’agit du symbole du foyer que le couple doit construire et partager. Il accueille les mariés ainsi que le rabbin pour la signature de la Ketouba (contrat de mariage).',
+            description3:'C’est également à cet instant que vous aurez l’occasion de voir Avner casser le fameux verre.'
         },
         {
             Id: '2',
@@ -53,7 +55,8 @@ const StorySection = (props) => {
             Shape:Shape,
             sTitle:'La Réception',
             date:'8 juin 2023',
-            description:'A l’issue de la Houppa, nous resterons sur le domaine pour célébrer notre union lors d’un cocktail et d’une soirée en musique, jusqu’au bout de la nuit. Pour les couche-tard et les fêtards, des hébergements sont disponibles à la réservation sur le domaine.'
+            description:'A l’issue de la Houppa, nous resterons sur le domaine pour célébrer notre union lors d’un cocktail, d’un repas et d’une soirée en musique jusqu’au bout de la nuit.',
+            description2:'Pour les couche-tard et les fêtards, des hébergements sont disponibles à la réservation sur le domaine.'
         }
     ]
 
@@ -98,6 +101,8 @@ const StorySection = (props) => {
                                                     <h2>{story.sTitle}</h2>
                                                     <span>{story.date}</span>
                                                     <p>{story.description}</p>
+                                                    <p>{story.description2}</p>
+                                                    <p>{story.description3}</p>
                                                     <div className="border-shape">
                                                         <img src={story.Shape} alt=""/>
                                                     </div>
