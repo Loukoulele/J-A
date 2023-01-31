@@ -12,12 +12,13 @@ class CoupleSection extends Component {
                         <div className="col col-xs-12">
                             <div className="couple-area clearfix">
                                 <div className="text-grid groom">
-                                    <h3><b>J</b>ulie <b>C</b>hemla</h3>
-                                    <p>Juste la femme idéale pour Avner<br/>
-                                        Un brin fofolle<br/>
-                                        Limite relou<br/>
-                                        Indubitablement fan de sa belle-mère<br/>
-                                        Extrêmement bonne cuisinière (sponsorisée par UberEat)
+                                    <h3>Julie Chemla</h3>
+                                    <p>
+                                        <b>J</b>uste la femme idéale pour Avner<br/>
+                                        <b>U</b>n brin fofolle<br/>
+                                        <b>L</b>imite relou<br/>
+                                        <b>I</b>ndubitablement fan de sa belle-mère<br/>
+                                        <b>E</b>xtrêmement bonne cuisinière (sponsorisée par UberEat)
                                     </p>
                                     {/* <div className="social">
                                         <ul>
@@ -33,12 +34,13 @@ class CoupleSection extends Component {
                                     </div>
                                 </div>
                                 <div className="text-grid groom">
-                                    <h3><b>A</b>vner <b>S</b>ayagh</h3>
-                                    <p>Assurément le mari idéal pour Julie<br/>
-                                        Vraiment très têtu<br/>
-                                        Naturellement drôle<br/>
-                                        Extrêmement fan de son beau-père<br/>
-                                        Rassurant dans n’importe quelle situation (sauf au volant)
+                                    <h3>Avner Sayagh</h3>
+                                    <p>
+                                        <b>A</b>ssurément le mari idéal pour Julie<br/>
+                                        <b>V</b>raiment très têtu<br/>
+                                        <b>N</b>aturellement drôle<br/>
+                                        <b>E</b>xtrêmement fan de son beau-père<br/>
+                                        <b>R</b>assurant dans n’importe quelle situation (sauf au volant)
                                     </p>
                                     {/* <div className="social">
                                         <ul>
