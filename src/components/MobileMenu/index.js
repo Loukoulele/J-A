@@ -73,10 +73,10 @@ export default class MobileMenu extends Component {
                             )
                         })}
                         <li><Link activeClass="active" to="couple" spy={true} smooth={true} offset={-100}  duration={500} >Couple</Link></li>
-                        <li><Link activeClass="active" to="story" spy={true} smooth={true}  duration={500} >Notre histoire</Link></li>
                         <li><Link activeClass="active" to="gallery" spy={true} smooth={true}  duration={500} >Gallerie</Link></li>
+                        <li><Link activeClass="active" to="story" spy={true} smooth={true}  duration={500} >L'événement</Link></li>
+                        <li><Link activeClass="active" to="events" spy={true} smooth={true} offset={-80}  duration={500} >Lieux et dates</Link></li>
                         <li><Link activeClass="active" to="RSVP" spy={true} smooth={true}  duration={500} >Contact</Link></li>
-                        <li><Link activeClass="active" to="events" spy={true} smooth={true} offset={-80}  duration={500} >Événements</Link></li>
                     </ul>
 
                 </div>
