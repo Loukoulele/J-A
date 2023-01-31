@@ -20,11 +20,11 @@ const HomePage =() => {
             <Navbar hclass={'wpo-site-header-s1'}/>
             <Hero/>
             <CoupleSection/>
+            <PortfolioSection2/>
             <StorySection/>
             {/* <VideoSection/> */}
-            <PortfolioSection2/>
-            <RSVP/>
             <EventSection/>
+            <RSVP/>
             {/* <PartnerSection/> */}
             <Footer/> 
             <Scrollbar/>
