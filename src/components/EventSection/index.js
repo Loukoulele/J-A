@@ -31,7 +31,7 @@ const Events = [
         title:'Petit déjeuner',
         li1:'Vendredi 9 juin 2023',
         li2:'A partir de 10h00 –  jusqu’à 14h00',
-        li3:'Pour nos invités ayant choisi de rester dormir sur le domaine, un petit déjeuner sera servi sur place le lendemain.',
+        li3:'Pour nos invités ayant choisi de rester dormir sur le domaine, un petit déjeuner tardif sera servi sur place le lendemain. Tenue décontractée exigée pour pouvoir vous amuser (cages de foot, terrain de basket, transat...) !',
         li4:<LocationMap/>,
     },
 
