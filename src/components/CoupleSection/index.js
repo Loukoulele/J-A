@@ -12,8 +12,13 @@ class CoupleSection extends Component {
                         <div className="col col-xs-12">
                             <div className="couple-area clearfix">
                                 <div className="text-grid bride">
-                                    <h3>Julie Chemla</h3>
-                                    <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                    <h3><b>J</b>ulie <b>C</b>hemla</h3>
+                                    <p>Juste la femme idéale pour Avner 
+                                        Un brin fofolle
+                                        Limite relou
+                                        Indubitablement fan de sa belle mère 
+                                        Extrêmement bonne cuisinière (sponsorisée par UberEat)
+                                    </p>
                                     {/* <div className="social">
                                         <ul>
                                             <li><Link to="/"><i className="ti-facebook"></i></Link></li>
@@ -28,8 +33,13 @@ class CoupleSection extends Component {
                                     </div>
                                 </div>
                                 <div className="text-grid groom">
-                                    <h3>Avner Sayagh</h3>
-                                    <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                                    <h3><b>A</b>vner <b>S</b>ayagh</h3>
+                                    <p>Assurément le mari idéal pour Julie
+                                        Vraiment très têtu
+                                        Naturellement drôle
+                                        Extrêmement fan de son beau-père
+                                        Rassurant dans n’importe quelle situation (sauf au volant)
+                                    </p>
                                     {/* <div className="social">
                                         <ul>
                                             <li><Link to="/"><i className="ti-facebook"></i></Link></li>

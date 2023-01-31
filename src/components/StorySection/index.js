@@ -28,19 +28,11 @@ const StorySection = (props) => {
     const Tabs = [
         {
             Id: '1',
-            tabItem: 'Première rencontre',
+            tabItem: 'La Houppa',
         },
         {
             Id: '2',
-            tabItem: 'Premier rendez-vous',
-        },
-        {
-            Id: '3',
-            tabItem: 'Proposition de mariage',
-        },
-        {
-            Id: '4',
-            tabItem: 'Notre engagement',
+            tabItem: 'La Réception',
         }
     ]
 
@@ -50,36 +42,18 @@ const StorySection = (props) => {
             sImg: sImg1,
             sIcon:sIcon1,
             Shape:Shape,
-            sTitle:"La première fois que l'on s'est rencontre",
-            date:'Sep 15,2022',
-            description:'Une rencontre inattendu... Pleine de couleurs'
+            sTitle:"La Houppa",
+            date:'8 juin 2023',
+            description:'La Houppa (le dais nuptial) correspond à la cérémonie religieuse du mariage. Le nouveau couple est béni sous un tissu tenu de 4 piliers, généralement joliment décoré et ouvert des 4 côtés, pour s’apparenter à la tente d’Avraham Avinou. Il s’agit du symbole du foyer que le couple doit construire et partager. Il accueille les mariés ainsi que le rabbin pour la signature de la Ketouba (contrat de mariage). C’est également à cet instant que vous aurez l’occasion de voir Avner cassé le fameux verre.'
         },
         {
             Id: '2',
             sImg: sImg2,
             sIcon:sIcon2,
             Shape:Shape,
-            sTitle:'First Date',
-            date:'Sep 15,2022',
-            description:'Une rencontre inattendu... Pleine de couleurs'
-        },
-        {
-            Id: '3',
-            sImg: sImg3,
-            sIcon:sIcon3,
-            Shape:Shape,
-            sTitle:'Marige Proposal',
-            date:'Sep 15,2022',
-            description:'Une rencontre inattendu... Pleine de couleurs'
-        },
-        {
-            Id: '4',
-            sImg: sImg4,
-            sIcon:sIcon4,
-            Shape:Shape,
-            sTitle:'Our Engagement',
-            date:'Sep 15,2022',
-            description:'Une rencontre inattendu... Pleine de couleurs'
+            sTitle:'La Réception',
+            date:'8 juin 2023',
+            description:'A l’issue de la Houppa, nous resterons sur le domaine pour célébrer notre union lors d’un cocktail et d’une soirée en musique, jusqu’au bout de la nuit. Pour les couche-tard et les fêtards, des hébergements sont disponibles à la réservation sur le domaine.'
         }
     ]
 
@@ -89,7 +63,7 @@ const StorySection = (props) => {
 
         <section className="wpo-story-section section-padding" id="story">
             <div className="container">
-                <SectionTitle MainTitle={"Notre histoire d'amour"}/>
+                <SectionTitle MainTitle={"Julie et Avner seraient ravis de vous avoir à leurs côtés afin de célébrer leur mariage qui se déroulera le Jeudi 8 juin 2023 au Domaine de la Butte Ronde. "}/>
                 <div className="row align-items-center justify-content-center">
                     <div className="col col-lg-12 col-12">
                         <div className="tab-area">

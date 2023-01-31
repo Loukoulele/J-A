@@ -5,35 +5,42 @@ import sImg2 from '../../images/event/2.jpg'
 import sImg3 from '../../images/event/3.jpg'
 import LocationMap from '../Modal'
 
+function GuestGreeting(props) {
+    return <a href="https://buy.stripe.com/cN2eYc5LzdrL55m8wx"> ici</a>;
+  }
 
 const Events = [
     {
         Simg: sImg1,
-        title:'The Reception',
-        li1:'Monday, 25 Sep, 2022 1:00 PM – 4:30 PM',
-        li2:'Estern Star Plaza, Road 123, USA',
+        title:'Houppa & Soirée',
+        li1:'Jeudi 8 juin 2023, 17H00',
+        li2:'La Butte Ronde – Chemin de l’abime, 78125 La Boissière-école',
+        li4:<LocationMap/>,
     },
     {
         Simg: sImg2,
-        title:'Soirée de mariage',
-        li1:'Jeudi, 8 Juin, 2023',
-        li2:'10:00 – 00:00',
-        li3:'Domaine de la Butte Ronde, La Butte Ronde, La Boissière-École, France',
+        title:'Hébergements',
+        li2:'Pour celles et ceux qui souhaitent profiter de la soirée jusqu’au bout de la nuit, le domaine de la butte ronde propose des hébergements sur place. Toute réservation doit se faire impérativement avant le 18 mars 2023.',
+        li6: 'Pour réserver cliquez ',
+        li7:<GuestGreeting/>,
     },
     {
         Simg: sImg3,
-        title:'Wedding Party',
-        li1:'Monday, 25 Sep, 2022 1:00 PM – 4:30 PM',
-        li2:'Estern Star Plaza, Road 123, USA',
+        title:'Petit déjeuner',
+        li1:'Vendredi 9 juin 2023',
+        li2:'A partir de 10h30 –  jusqu’à 14h00',
+        li3:'Pour nos invités ayant choisi de rester dormir sur le domaine, un petit déjeuner sera servi sur place le lendemain.',
+        li4:<LocationMap/>,
     },
 
 ]
+
 
 const EventSection = (props) => {
     return (
         <section className={`wpo-event-section section-padding ${props.eClass}`} id="events">
             <div className="container">
-                <SectionTitle MainTitle={'Lieu & Date'} />
+                <SectionTitle MainTitle={'Lieux & Dates'} />
                 <div className="wpo-event-wrap">
                     <div className="row">
                         {Events.map((event, eitem) => (
@@ -48,7 +55,8 @@ const EventSection = (props) => {
                                             <li>{event.li1}</li>
                                             <li>{event.li2}</li>
                                             <li>{event.li3}</li>
-                                            <li><LocationMap/></li>
+                                            <li>{event.li4}</li>
+                                            <li>{event.li6}{event.li7}</li>
                                         </ul>
                                     </div>
                                 </div>
