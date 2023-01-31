@@ -63,9 +63,8 @@ const Footer = (props) =>{
                             <div className="contact-ft">
                                 <p>Si vous avez des questions, n'hésitez pas à nous contacter.</p>
                                 <ul>
-                                    <li><i className="fi flaticon-email"></i>chemla.julie5@gmail.com</li>
+                                    <li><i className="fi flaticon-email"></i>mariage8062023@gmail.com</li>
                                     <li><i className="fi flaticon-phone-call"></i>+33 6 22 32 47 90</li>
-                                    <li><i className="fi flaticon-email"></i>avner.sayagh@gmail.com</li>
                                     <li><i className="fi flaticon-phone-call"></i>+33 6 21 53 98 13</li>
                                 </ul>
                             </div>

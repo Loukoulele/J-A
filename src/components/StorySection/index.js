@@ -69,7 +69,7 @@ const StorySection = (props) => {
                 <SectionTitle MainTitle={"L' événement "}/>
                 <div className="row align-items-center justify-content-center">
                     <div className="row align-items-center">
-                        <p>« Julie et Avner seront ravis de vous avoir à leurs côtés afin de capturer d’autres moments avec vous à l’occasion de leur mariage qui se déroulera le Jeudi 8 juin 2023 au Domaine de la Butte Ronde.»</p>
+                        <p>« Julie et Avner seront ravis de vous avoir à leurs côtés pour célébrer leur mariage qui se déroulera le Jeudi 8 juin 2023 au Domaine de la Butte Ronde.»</p>
                     </div>
                     <div className="col col-lg-12 col-12">
                         <div className="tab-area">

@@ -59,7 +59,8 @@ const EventSection = (props) => {
                                             <li>{event.li2}</li>
                                             <li>{event.li3}</li>
                                             <li>{event.li4}</li>
-                                            <li>{event.li5}{event.li6}{event.li7}</li>
+                                            <li>{event.li5}</li>
+                                            <li>{event.li6}{event.li7}</li>
                                         </ul>
                                     </div>
                                 </div>
