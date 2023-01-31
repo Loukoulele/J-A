@@ -13,10 +13,10 @@ class CoupleSection extends Component {
                             <div className="couple-area clearfix">
                                 <div className="text-grid bride">
                                     <h3><b>J</b>ulie <b>C</b>hemla</h3>
-                                    <p>Juste la femme idéale pour Avner 
-                                        Un brin fofolle
-                                        Limite relou
-                                        Indubitablement fan de sa belle mère 
+                                    <p>Juste la femme idéale pour Avner<br/>
+                                        Un brin fofolle<br/>
+                                        Limite relou<br/>
+                                        Indubitablement fan de sa belle mère<br/>
                                         Extrêmement bonne cuisinière (sponsorisée par UberEat)
                                     </p>
                                     {/* <div className="social">
@@ -34,10 +34,10 @@ class CoupleSection extends Component {
                                 </div>
                                 <div className="text-grid groom">
                                     <h3><b>A</b>vner <b>S</b>ayagh</h3>
-                                    <p>Assurément le mari idéal pour Julie
-                                        Vraiment très têtu
-                                        Naturellement drôle
-                                        Extrêmement fan de son beau-père
+                                    <p>Assurément le mari idéal pour Julie<br/>
+                                        Vraiment très têtu<br/>
+                                        Naturellement drôle<br/>
+                                        Extrêmement fan de son beau-père<br/>
                                         Rassurant dans n’importe quelle situation (sauf au volant)
                                     </p>
                                     {/* <div className="social">

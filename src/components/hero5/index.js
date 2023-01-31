@@ -13,7 +13,7 @@ const Hero5 = (props) => {
                                 <div className="wpo-event-item">
                                     <div className="wpo-event-text">
                                         <h2>Julie & Avner</h2>
-                                        <p>8 Juin, 2023</p>
+                                        <p>8 Juin 2023</p>
                                         <ul>
                                             <li>Monday, 25 Sep, 2022 <br/>
                                                 1:00 PM – 4:30 PM</li>
