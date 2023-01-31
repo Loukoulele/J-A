@@ -63,9 +63,11 @@ const StorySection = (props) => {
 
         <section className="wpo-story-section section-padding" id="story">
             <div className="container">
-                <SectionTitle MainTitle={"L'événement "}/>
+                <SectionTitle MainTitle={"L' événement "}/>
                 <div className="row align-items-center justify-content-center">
-                    <p>Julie et Avner seraient ravis de vous avoir à leurs côtés afin de célébrer leur mariage qui se déroulera le Jeudi 8 juin 2023 au Domaine de la Butte Ronde. </p>
+                    <div className="row align-items-center">
+                        <p>Julie et Avner seraient ravis de vous avoir à leurs côtés afin de célébrer leur mariage qui se déroulera le Jeudi 8 juin 2023 au Domaine de la Butte Ronde. </p>
+                    </div>
                     <div className="col col-lg-12 col-12">
                         <div className="tab-area">
                             <div className="tablinks">
