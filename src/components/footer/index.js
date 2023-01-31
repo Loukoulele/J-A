@@ -79,7 +79,7 @@ const Footer = (props) =>{
                             </div>
                             <ul className="d-flex">
                                 {Projects.slice(0,6).map((project, pitem) => (
-                                    <li key={pitem}><Link onClick={ClickHandler} to={`/project-single/${project.id}`}><img src={project.pimg1} alt=""/></Link></li>
+                                    <li key={pitem}><img src={project.pimg1} alt=""/></li>
                                 ))}
                             </ul>
                         </div>
